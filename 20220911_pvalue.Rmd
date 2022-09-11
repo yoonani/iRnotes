@@ -1,6 +1,8 @@
 ---
 title: "통계적 가설검정 생각해 보기"
-output: html_document
+output: 
+  prettydoc::html_pretty:
+    theme: leonids
 ---
 
 ```{r setup, include=FALSE}

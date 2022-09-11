@@ -1,7 +1,8 @@
 ---
 title: "조건부 확률과 함께 연결된 몇가지"
 output: 
-  html_document:
+  prettydoc::html_pretty:
+    theme: leonids
     toc: true
 ---
 
