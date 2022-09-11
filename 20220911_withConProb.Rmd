@@ -43,11 +43,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 여기서 불량인 사건 B는 첫번째 공장($A_{1}$)에서 발생한 불량, 두번째 공장($A_{2}$)에서 발생한 불량, 세번째 공장($A_{1}$)에서 발생한 불량들의 합집합입니다.
 
-<p align="center">$B = (B \cap A_{1}) \cup (B \cap at A_{2}) \cup (B \cap A_{3})$</p>
+<p align="center">$B = (B \cap A_{1}) \cup (B \cap A_{2}) \cup (B \cap A_{3})$</p>
 
 불량의 확률 $P(B)$ 는, 
 
-<p align="center">$P(B) = P \left[ (B \cap A_{1}) \cup (B \cap A_{2}) \cup (B \cap A_{3})  \right] $</p>
+<p align="center">$P(B) = P[ (B \cap A_{1}) \cup (B \cap A_{2}) \cup (B \cap A_{3})  ]$</p>
 
 여기서 각 공장에서 불량이 발생하는 것은 배반이므로, 
 

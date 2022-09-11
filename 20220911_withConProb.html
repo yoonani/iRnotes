@@ -419,12 +419,13 @@ A_{n} = \Omega\)</span> 일 때, <span class="math inline">\(A_{1}, A_{2},
 <p>여기서 불량인 사건 B는 첫번째 공장(<span class="math inline">\(A_{1}\)</span>)에서 발생한 불량, 두번째 공장(<span class="math inline">\(A_{2}\)</span>)에서 발생한 불량, 세번째 공장(<span class="math inline">\(A_{1}\)</span>)에서 발생한 불량들의
 합집합입니다.</p>
 <p align="center">
-<span class="math inline">\(B = (B \cap A_{1}) \cup (B \cap at A_{2})
-\cup (B \cap A_{3})\)</span>
+<span class="math inline">\(B = (B \cap A_{1}) \cup (B \cap A_{2}) \cup
+(B \cap A_{3})\)</span>
 </p>
 <p>불량의 확률 <span class="math inline">\(P(B)\)</span> 는,</p>
 <p align="center">
-$P(B) = P $
+<span class="math inline">\(P(B) = P[ (B \cap A_{1}) \cup (B \cap A_{2})
+\cup (B \cap A_{3}) ]\)</span>
 </p>
 <p>여기서 각 공장에서 불량이 발생하는 것은 배반이므로,</p>
 <p><span class="math display">\[\begin{align*}
@@ -443,7 +444,7 @@ P(A_{i})P(B|A_{i})
 <span class="math inline">\(P(B) = \sum_{i = 1}^{3}
 P(A_{i})P(B|A_{i})\)</span>
 </p>
-<p>입니다.</p>
+<p>이며, 이를 확률 B에 대한 전확률 공식이라고 합니다.</p>
 </div>
 </div>
 
