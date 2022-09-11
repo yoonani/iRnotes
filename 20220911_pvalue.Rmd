@@ -3,6 +3,7 @@ title: "통계적 가설검정 생각해 보기"
 output: 
   prettydoc::html_pretty:
     theme: leonids
+    highlight: github
 ---
 
 ```{r setup, include=FALSE}

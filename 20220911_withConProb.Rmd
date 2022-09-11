@@ -3,6 +3,7 @@ title: "조건부 확률과 함께 연결된 몇가지"
 output: 
   prettydoc::html_pretty:
     theme: leonids
+    highlight: github
     toc: true
 ---
 
