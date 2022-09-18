@@ -1,5 +1,5 @@
 ---
-title: "조건부 확률과 함께 연결된 몇가지"
+title: "조건부 확률과 관련된 몇가지"
 output: 
   prettydoc::html_pretty:
     theme: leonids

@@ -1,0 +1,18 @@
+---
+title: "누구나 R 데이터분석"
+output: 
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 책 소개
+
+## 책에서 다루지 못한 몇 가지 이야기들
+
+* [조건부 확률과 관련된 몇가지](./20220911_withConProb.html)
+* [통계적 가설검정 생각해 보기](./20220911_pvalue.html)
